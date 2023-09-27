@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* custom css */
+:root{
+    --bg-color: #0aad0a;
+    --text-color: #0aad0a;
+    --transition: 0.5s;
+    --shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
+}
+.bg-success{
+    background: var(--bg-color) !important;
+}
+.btn-success{
+    background: var(--bg-color);
+    color: white;
+    font-weight: 600;
+}
+.btn-success:hover{
+    background: transparent;
+    color: #0aad0a;
+    border: 1px solid var(--text-color);
+    
+}
+.btn-dark{
+    background: #1e293b;
+    color: white;
+    font-weight: 600;
+}
+.btn-dark:hover{
+    background: white;
+    color: #1e293b;
+    border: 1px solid #1e293b;
+    
+}
+.btn-pink{
+    background: #db2777;
+    color: white;
+}
+.text-primary{
+    color: var(--text-color) !important;
+}
+.text-pink{
+    color: #b91c1c;
+}
+
+
+/* topbar social css */
+.topbar-social-icon a{
+    font-size: 20px;
+    color: rgb(75, 69, 69);
+    padding: 0 6px;
+}
+.topbar-social-icon a:hover{
+    color: var(--text-color);
+}
+/* header css */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 19px;
+    padding: 0px 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0aad0a;
+    border-bottom: 3px solid #0aad0a;
+}
+.dropdown-item {
+    display: visible;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.border{
+    border: 1px solid ;
+}
+/* bottom-menu left */
+.phone-icon{
+    padding: 10px 12px;
+    border-radius: 50%;
+    background: #e2e8f0;
+}
+.offcanvas hr{
+    margin: 0;
+    color: inherit;
+    opacity: 0.5;
+}
+/* banner section */
+.banner {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100%;
+}
+/* owl-carousel css */
+.owl-carousel .card{
+    background: #f5f5f5;
+    border: 1px solid darkgrey;
+    transition: var(--transition);
+}
+.owl-carousel .card:hover{
+    border: 2px solid var(--bg-color);
+    box-shadow: var(--shadow);
+}
+/* Featured Items css */
+.hover_icons a{
+    padding: 5px 8px;
+    background: #cbd5e1;
+    color: black;
+    border-radius: 50%;
+    display: none;
+       
+}
+.featured-items .card:hover .hover_icons a{
+    display: inline-block; 
+}
+
+.hover_icons a:hover{
+    background: var(--bg-color);
+    color: white;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+  /* bottom-banner css  */
+.bottom-banner-left{
+    background: url(img/banner-1_cleanup.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 60px 0px;
+}
+.bottom-banner-left-text a{
+    background: red;
+    color: white;
+    font-weight: 500;
+}
+.bottom-banner-left-text a:hover{
+    background: #cfefea;
+    color: Black;
+    border: 1px solid black;
+
+}
+.bottom-banner-right{
+    background: url(img/banner-2_cleanup.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 40px 0px;
+}
+.bottom-banner-right-text a{
+    background: red;
+    color: white;
+    font-weight: 500;
+}
+.bottom-banner-right-text a:hover{
+    background: #f8ebcb;
+    color: Black;
+    border: 1px solid black;
+}
+/* bottom footer css */
+.bottom-footer{
+    padding-top: 100px;
+    padding-bottom: 5px;
+    background: #cbd5e1;
+
+}
+.footer-social-icon a{
+    font-size: 30px;
+    color: rgb(75, 69, 69);
+    display: inline-block;
+    color: black;
+    padding: 0 5px;
+
+}
+.footer-social-icon a:hover{
+    color: var(--text-color);
+}
+
+
+/*  */
+.carousel-item{
+    border: 1px solid black;
+    border-radius: 3px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+/* ScrollTop css */
+.scrollTop {
+    height: 50px;
+    width: 50px;
+    line-height: 50px ;
+    background: #64748b;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    text-align: center;
+    display:none;
+}
+.scrollTop a{
+    font-size: 30px;
+    color: white;
+
+   
+}
